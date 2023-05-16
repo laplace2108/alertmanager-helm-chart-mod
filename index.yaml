@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  alertmanager:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/laplace2108/alertmanager-helm-chart-mod
+    apiVersion: v2
+    appVersion: v0.25.0
+    created: "2023-05-16T10:20:54.759264-06:00"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: a922ace6f6757ae29601df60af34d4c2a881920c4b367525502478e9b6a6f8ad
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: laplace2108@gmail.com
+      name: laplace2108
+    name: alertmanager
+    sources:
+    - https://github.com/laplace2108/alertmanager-helm-chart-mod
+    type: application
+    urls:
+    - https://laplace2108.github.io/alertmanager-helm-chart-mod/alertmanager-0.31.0.tgz
+    version: 0.31.0
+generated: "2023-05-16T10:20:54.757958-06:00"
